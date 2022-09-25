@@ -13,7 +13,7 @@ Fonts are separated by a & */
   --accent3-color: #F95738; /* Here I added the 3rd accent*/
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Anton", Helvetica, sans-serif ;
+  --heading-font: "Libre Baskerville", Helvetica, sans-serif ;
   --paragraph-font: "Roboto", "Libre Baskerville", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -46,6 +46,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  
 }
 h2 {
   text-align: center;
