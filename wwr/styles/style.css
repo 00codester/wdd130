@@ -11,7 +11,6 @@ main section img{
 }
 
 header {
-    /*background-color: #025883; */
     background-color: #EE964B;
     color: #F6F7EB;
 }
@@ -41,7 +40,6 @@ h2{
 
 nav a {
     text-align: center;
-    /*background-color: #EE964B;*/
     color: #2D3F4C;
     text-decoration: none;
     padding: 35px;
