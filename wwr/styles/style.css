@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap');
 
 #content {
     max-width: 1600px;
@@ -5,25 +6,46 @@
 
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #025883;
+    /*background-color: #025883; */
+    background-color: #EE964B;
     color: #F6F7EB;
 }
 
 .logo {
     width: 80px;
+    padding-top: 5px;
+
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 body {
     background-color: #F6F7EB;
     color: #2D3F4C;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
+
+h2{
+    margin: 0;
+}
+
 
 nav a {
     text-align: center;
-    background-color: #EE964B;
+    /*background-color: #EE964B;*/
     color: #2D3F4C;
     text-decoration: none;
+    padding: 35px;
+
 }
 
 nav a:hover {
@@ -32,7 +54,10 @@ nav a:hover {
 }
 
 .home-title {
-    color: #F6F7EB;
+    /*color: #F6F7EB;*/
+    color:#2D3F4C;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-img {
@@ -43,8 +68,16 @@ nav a:hover {
     text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Courgette", serif, Helvetica;
+}
+
+p{
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
 h4 {
-    color: #F6F7EB;
+    color: #2D3F4C;
 }
 
 .button-box {
@@ -57,6 +90,7 @@ main section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #background {
@@ -68,6 +102,10 @@ main section {
     background-color: #EE964B;
     color: #2D3F4C;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -75,12 +113,24 @@ main section {
     color: #F6F7EB;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #025883;
+}
+
 .msg {
     background-color: #025883;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #F6F7EB;
+    padding-bottom: 15px;
 }
 
 .msg p {
@@ -88,8 +138,12 @@ main section {
 }
 
 footer {
-    background-color: #025883;
-    color: #F6F7EB;
+    /*background-color: #025883;
+    color: #F6F7EB; */
+    background-color: #EE964B;
+    color:#2D3F4C;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -97,7 +151,7 @@ footer p {
 }
 
 footer a {
-    color: #F6F7EB;
+    color: #2D3F4C;
     text-decoration: none;
 }
 
@@ -108,5 +162,10 @@ footer a:hover {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+
 }
 
