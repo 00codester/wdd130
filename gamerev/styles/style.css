@@ -258,6 +258,7 @@ footer p a:hover {
   top: 8px;
   width: 100%;
   text-align: center;
+  font-family: "Roboto Mono", Helvetica, sans-serif;
 }
 
 /* Number text (1/3 etc) */
