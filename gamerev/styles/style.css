@@ -352,3 +352,37 @@ iframe{
     display: block;
  
 }
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+.game-container a{
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
+#boi-card{
+    grid-column: 1/2;
+}
+#ror2-card{
+    grid-column: 2/3;
+}
+.game-container img{
+    height: 400px;
+    width: 300px;
+}
+.game-container p{
+    font-size: 1.2em;
+
+}
+
+#boi-card:hover, #ror2-card:hover{
+    opacity: .6;
+    transform: scale(1.05);
+}
